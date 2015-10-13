@@ -2,6 +2,5 @@ C:\Users\Jurnell\Documents\Visual Studio 2015\Projects\gameoflife\dotnet\GameOfL
 C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\bin\Debug\GameOfLife.exe.config
 C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\bin\Debug\GameOfLife.exe
 C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\bin\Debug\GameOfLife.pdb
-C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\obj\Debug\GameOfLife.csprojResolveAssemblyReference.cache
 C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\obj\Debug\GameOfLife.exe
 C:\Users\bernalr\Documents\GitHub\conways-game-of-life-LandoB\dotnet\GameOfLife\GameOfLife\obj\Debug\GameOfLife.pdb
