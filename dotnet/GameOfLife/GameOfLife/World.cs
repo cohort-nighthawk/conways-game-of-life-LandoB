@@ -40,6 +40,32 @@ namespace GameOfLife
 
         }
 
+        // print the contents of the world to the console
+        public void DisplayWorld()
+        {
+            for (int i = 0; i < this.dimension; i++)
+            {
+                for (int j = 0; j < this.dimension; j++)
+                {
+                    Console.Write("{0}", (this._currentworld[i, j].IsAlive ? "*" : " "));
+                }
+                Console.WriteLine();
+            }
+        }
+
+        // will seed the world randomly
+        public void RamdomlySeedTheWorld()
+        {
+            Random random = new Random();
+            for (int i = 0; i < this.dimension; i++)
+            {
+                for (int j = 0; j < this.dimension; j++)
+                {
+                    this._currentworld[i, j].IsAlive = random.Next(0, 2) == 0 ? false : true;
+                }
+
+            }
+        }
 
         public int CountAliveNeighbors(int i, int j)
         {
@@ -49,7 +75,9 @@ namespace GameOfLife
                 for (int l = j - 1; l <= j + 1; l++)
                 {
                     // calculate number of alive neighbors
-                    if (k == i && l == j) { /* center cell, so ignore */ }
+                    if (k == i && l == j) { 
+                        /* center cell, so ignore */ 
+                    }
                     else
                     {
                         // check all eight neighbors to see if they are alive

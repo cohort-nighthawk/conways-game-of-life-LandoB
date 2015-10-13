@@ -11,11 +11,11 @@ namespace GameOfLife
         static void Main(string[] args)
         {
             World myWorld = new World(20);
-            
-            // Need to find a way to display the World
-            // Something like:
-            // myWorld.DisplayWorld();
 
+            myWorld.RamdomlySeedTheWorld();
+            myWorld.DisplayWorld();
+            Console.WriteLine("SEED");
+            Console.ReadLine();
 
             for (int i = 0; i < 40; i++)
             {
